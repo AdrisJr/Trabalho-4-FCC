@@ -101,12 +101,34 @@ h2{
   margin-top: -3.5%;
 }
 
+.image{
+  max-width: 450px;
+}
+.grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+.project-tile{
+  margin-top: -3.5%;
+}
+
 @media (max-width: 800px) {
   #projects{
     background-color: #e3d0e8;
     background-image: none; 
   }
+  .image{
+    max-width: 250px;
+  }
 }
+
 
 
    
