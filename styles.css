@@ -32,7 +32,7 @@ html{
 #projects, #welcome-section, #contato{
   width: 100%;
   text-align: center;
-  position: absolute;
+  position: relative;
 
 }
 #projects, #welcome-section{
