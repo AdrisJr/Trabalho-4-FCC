@@ -32,9 +32,8 @@ html{
 #projects, #welcome-section, #contato{
   width: 100%;
   text-align: center;
-  position: relative;
-  display: flex;
-  align-items: center;
+  position: absolute;
+
 }
 #projects, #welcome-section{
   height: 100vh;
